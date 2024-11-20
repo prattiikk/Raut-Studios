@@ -12,6 +12,15 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        sans: ['var(--font-sans)', 'sans-serif'],
+        serif: ['var(--font-serif)', 'serif'],
+        editorial: ['"PP Editorial New"'],
+      },
+      fontSize: {
+        '10xl': '10rem', 
+        '12xl': '12rem', 
+      },
     },
   },
   plugins: [],

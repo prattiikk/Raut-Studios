@@ -19,3 +19,28 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Ultralight Italic */
+@font-face {
+  font-family: 'PP Editorial New Ultralight';
+  src: url('/fonts/PPEditorialNew-UltralightItalic.woff2') format('woff2');
+  font-weight: 200; /* Ultralight */
+  font-style: italic;
+}
+
+/* Italic */
+@font-face {
+  font-family: 'PP Editorial New';
+  src: url('/fonts/PPEditorialNew-Italic.woff') format('woff');
+  font-weight: 900; /* Regular Italic */
+  font-style: italic;
+}
+
+scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
